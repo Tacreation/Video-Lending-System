@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>foodcart</display-name>
+ 
+ 
+  <servlet>
+    <servlet-name>NewArrivalServlet</servlet-name>
+    <servlet-class>com.videos.servlet.NewArrivalServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>NewArrivalServlet</servlet-name>
+    <url-pattern>/NewArrivalServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>VideoCommentServlet</servlet-name>
+    <servlet-class>com.videos.servlet.VideoCommentServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>VideoCommentServlet</servlet-name>
+    <url-pattern>/VideoCommentServlet</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>VideoDescriptionServlet</servlet-name>
+    <servlet-class>com.videos.servlet.VideoDescriptionServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>VideoDescriptionServlet</servlet-name>
+    <url-pattern>/VideoDescriptionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>UserDislikesServlet</servlet-name>
+    <servlet-class>com.videos.servlet.UserDislikesServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>UserDislikesServlet</servlet-name>
+    <url-pattern>/UserDislikesServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>UserLikesServlet</servlet-name>
+    <servlet-class>com.videos.servlet.UserLikesServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>UserLikesServlet</servlet-name>
+    <url-pattern>/UserLikesServlet</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>DeleteUserCommentsServlet</servlet-name>
+    <servlet-class>com.videos.servlet.DeleteUserCommentsServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>DeleteUserCommentsServlet</servlet-name>
+    <url-pattern>/DeleteUserCommentsServlet</url-pattern>
+  </servlet-mapping>
+  
+  </web-app>
+  </element>
+  
+  
